@@ -27,7 +27,7 @@ Sparkfun 9DoF Razor IMU M0 node for ROS.
 [\[razor_imu_9dof\]](http://wiki.ros.org/razor_imu_9dof)
 
 ```bash
-sudo apt-get install ros-indigo-razor-imu-9dof
+sudo apt-get install ros-<distro>-razor-imu-9dof
 sudo apt-get install python-visual
 ```
 
