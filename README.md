@@ -35,7 +35,7 @@ sudo apt-get install python-visual
 
 ## Method 2: imu-tools
 
-The magnetometer can be easibly affected by current, magnet or any magnetizable material. It leads to the orientation estimation not correct (yaw). So, it is recommended to use the [\[imu-tools\]](http://wiki.ros.org/imu_tools) package to fuse only the angular velocities and accelerations into the orientation by yourself.
+The magnetometer can be easibly affected by current, magnet or any magnetizable material. It results in the orientation estimation is not correct (especially the yaw). So, it is recommended to use the [\[imu-tools\]](http://wiki.ros.org/imu_tools) package to fuse only the angular velocities and accelerations into the orientation by yourself.
 
 ```bash
 sudo apt install ros-<distro>-imu-tools
